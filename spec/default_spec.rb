@@ -14,6 +14,6 @@ describe 'meteor::default' do
   it 'should build and install packages' do
     expect(chef_run).to install_package 'nodejs'
     expect(chef_run).to install_package 'npm'
-    expect(chef_run).to install_package 'python2'
+    expect(chef_run).to install_package 'python'
   end
 end

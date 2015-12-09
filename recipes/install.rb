@@ -1,4 +1,4 @@
-%w(nodejs npm python2).each do |pkg|
+%w(nodejs npm python).each do |pkg|
   package pkg do
     action :install
   end

@@ -8,7 +8,7 @@ describe package('npm') do
   it { should be_installed }
 end
 
-describe package('python2') do
+describe package('python') do
   it { should be_installed }
 end
 
