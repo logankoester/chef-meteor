@@ -4,10 +4,6 @@
   end
 end
 
-%w(velocity-cli packagecheck mgp).each do |pkg|
-  nodejs_npm pkg
-end
-
 # Install Meteor
 install_script = 'meteor_install.sh'
 meteor_install_file = File.join(
